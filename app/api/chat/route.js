@@ -1,4 +1,4 @@
-import { businessConfig } from "@/lib/config";
+import { businessConfig } from "../../../lib/config";
 
 export async function POST(request) {
   try {
