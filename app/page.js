@@ -1,4 +1,4 @@
-import import { businessConfig } from "@/lib/config";
+import { businessConfig } from "../lib/config";
 
 export default function Home() {
   return (
