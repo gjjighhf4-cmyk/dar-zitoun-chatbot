@@ -1,5 +1,4 @@
-import ChatWidget from "../components/ChatWidget";
-import { businessConfig } from "../lib/config";
+import import { businessConfig } from "@/lib/config";
 
 export default function Home() {
   return (
