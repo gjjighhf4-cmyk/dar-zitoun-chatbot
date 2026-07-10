@@ -1,4 +1,4 @@
-"use client";
+import { businessConfig } from "@/lib/config";
 import { useState, useRef, useEffect } from "react";
 import { businessConfig } from "../lib/config";
 
