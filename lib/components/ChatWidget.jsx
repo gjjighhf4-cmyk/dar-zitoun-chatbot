@@ -1,6 +1,6 @@
 "use client";
 import { useState, useRef, useEffect } from "react";
-import { businessConfig } from "@/lib/config";
+import { businessConfig } from "../lib/config";
 
 const { colors, name, emoji, suggestions, greeting } = businessConfig;
 
