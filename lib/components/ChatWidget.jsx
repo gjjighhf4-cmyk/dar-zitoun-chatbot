@@ -1,7 +1,7 @@
 "use client";
-import { useState, useRef, useEffect } from "react";
-import { businessConfig } from "@/lib/config";
 
+import ChatWidget from "@/lib/components/ChatWidget";
+import { businessConfig } from "@/lib/config";
 const { colors, name, emoji, suggestions, greeting } = businessConfig;
 
 function TypingDots() {
