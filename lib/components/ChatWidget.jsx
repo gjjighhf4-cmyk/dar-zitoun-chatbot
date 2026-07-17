@@ -1,6 +1,6 @@
 "use client";
 
-import ChatWidget from "@/lib/components/ChatWidget";
+import { useState, useEffect, useRef } from "react";
 import { businessConfig } from "@/lib/config";
 const { colors, name, emoji, suggestions, greeting } = businessConfig;
 
